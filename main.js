@@ -50,6 +50,7 @@ function my_keydown(e)
 		canvas.remove(ball_obj);
 		document.getElementById("hd3").innerHTML="You have hit the Goal!!!";
 		document.getElementById("mc").style.borderColor="red";
+		document.getElementById("bb").style.backgroundImage="URL('download (2).jpg')";
 	}
 	
 	else{
